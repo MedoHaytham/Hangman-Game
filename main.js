@@ -30,7 +30,6 @@ categorySpan.textContent = category;
 
 // convert chosen word to array
 let wordLetters = Array.from(word.toUpperCase());
-console.log(wordLetters);
 
 let lettersGuess = document.querySelector('.letters-guess');
 
